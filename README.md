@@ -3,7 +3,7 @@
 **Hält deinen PC wach, solange du kurz nicht da bist.**
 Läuft unter Windows ohne Installation und ohne Adminrechte.
 
-![noch da, Programmfenster](https://noch-digitaler.de/images/noch-da-screenshot.png)
+![noch da, Programmfenster](https://noch-digitaler.de/images/noch-da-screenshot.png?v=1.0.1)
 
 noch da wird erst aktiv, wenn Maus und Tastatur eine einstellbare Zeit lang nicht benutzt wurden.
 Dann zieht der Mauszeiger winzige Kreise von 3 Pixeln, oder er bleibt im unsichtbaren Modus ganz stehen.
