@@ -384,14 +384,14 @@ public class NochDaForm : Form
 
         // Titel
         using (SolidBrush b = new SolidBrush(Ink)) g.DrawString("noch da", fTitle, b, 18, 78);
-        using (SolidBrush b = new SolidBrush(Muted)) g.DrawString("Hält dich am Platz – ohne Installation.", fSub, b, 20, 105);
+        using (SolidBrush b = new SolidBrush(Muted)) g.DrawString("Hält dich am Platz. Ohne Installation.", fSub, b, 20, 105);
 
         // Statuskarte
         Color dot; string status;
         long rest = Math.Max(0, idleSec - (long)(IdleMs() / 1000));
-        if (state == 1 && virtualMode) { dot = Teal; status = "Aktiv – unsichtbar, Impuls in " + rest + " s"; }
-        else if (state == 1 && circling) { dot = TealDark; status = "Aktiv – Maus kreist"; }
-        else if (state == 1) { dot = Teal; status = "Aktiv – kreist in " + rest + " s"; }
+        if (state == 1 && virtualMode) { dot = Teal; status = "Unsichtbar aktiv, Impuls in " + rest + " s"; }
+        else if (state == 1 && circling) { dot = TealDark; status = "Aktiv, Maus kreist"; }
+        else if (state == 1) { dot = Teal; status = "Aktiv, kreist in " + rest + " s"; }
         else if (state == 2) { dot = Amber; status = "Pausiert"; }
         else if (autoStopped) { dot = Grey; status = "Automatisch gestoppt"; }
         else { dot = Grey; status = "Bereit"; }
