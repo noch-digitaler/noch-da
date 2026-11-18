@@ -1,0 +1,2 @@
+# noch-da.cmd byte-genau ausliefern (Zeilenenden nicht umwandeln)
+*.cmd -text
